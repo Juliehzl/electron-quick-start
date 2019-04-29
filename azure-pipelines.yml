@@ -21,3 +21,7 @@ steps:
     npm install
     gulp --jdkVersion $(jdkVersion) --arch $(arch)
   displayName: 'npm install and preinstall files'
+
+- script: 
+    npm start
+  displayName: 'npm start'
