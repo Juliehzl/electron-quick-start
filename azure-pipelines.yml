@@ -19,7 +19,7 @@ steps:
 
 - script: |
     npm install
-    gulp --jdkVersion $(jdkVersion) --arch $(arch)
+    npx gulp --jdkVersion $(jdkVersion) --arch $(arch)
   displayName: 'npm install and preinstall files'
 
 - script: 
